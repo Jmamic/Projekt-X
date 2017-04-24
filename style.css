@@ -1,2 +1,4 @@
 img{height:200px;}
-body{}
+body{color:white;
+    background-image: url("pozadina.jpg");
+    background-attachment: fixed;}
