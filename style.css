@@ -2,3 +2,5 @@ img{height:200px;}
 body{color:white;
     background-image: url("pozadina.jpg");
     background-attachment: fixed;}
+a{color:white;
+    text-decoration:none;}
