@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="kreiranje.css">	
+		
+	</head>
+	<body>
+		<div id="kor">Korisničko ime</div>
+		<button type="button" id="odj"><a href="#">Odjava</a></button>
+		<br><br><br>
+		<form>
+			<table><th>
+			<label id="pitanje"><input type="text" name="Pitanje" id="pitanje" placeholder="Postavi novo pitanje..."></label>
+			<select name="Tip" id="tip">
+						<option value="radio">Radio</option>
+						<option value="checkbox">Checkbox</option>
+						<option value="textbox">Textarea</option>
+					</select>
+			<button id="time"><a href="#">Postavi vrijeme</a></button>
+			
+			</th>
+			<tr>
+				<td><label><input type="checkbox" name="odgovori" value="1"> Odgovor</label></td>
+			</tr>
+			<tr>
+				<td><label><input type="checkbox" name="odgovori" value="2"> Odgovor</label></td>
+			</tr>
+			<tr>
+				<td><label><input type="checkbox" name="odgovori" value="3"> Odgovor</label></td>
+			</tr>
+			<tr>
+				<td><button type="button" onclick="myFunction()" id="DodajOdgovor">Dodaj odgovor</button></td>
+			</tr>
+			<tr>
+			
+			<td id="got"><button><a href="#">Gotovo</a></button></td>
+			</tr>
+		</table>
+		
+		</form>
+		
+		
+</body>
+	
+</html>
