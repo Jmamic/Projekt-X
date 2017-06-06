@@ -1,0 +1,18 @@
+div{border:2px solid gray;
+	background-color:rgb(200,200,200);
+	position:relative;
+	top:100px;
+	width:350px;
+	height:300px;
+	margin:0 auto;}
+	
+form{
+    position: absolute;
+    left: 0;
+	top:80px;
+    width: 100%;
+    text-align: center;}
+	
+td {
+    padding: 15px;
+}

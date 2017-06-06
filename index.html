@@ -1,28 +1,24 @@
-<!doctype html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta charset="utf-8" />
-	<title>Projekt-X</title>
-	<meta content="anketa, pitanja">
+	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<div id="header">
-	</div>
-	<main>
-<h1>Dobrodošli na stranicu!</h1>
-
-<h3>O stranici</h3>
-	<p>Ova stranica je namijenjena profesorima i studentima TVZ-a.</p>
-	<p>Preko jednostavne forme profesor može kreirati pitanje na koje studenti onda odgovaraju.</p>
-	<p>Odgovori su prikazani u grafu.</p>
-
-
-
-	</main>
-	<footer>
-		<p>Tehničko veleučilište u Zagrebu</p>
-
-	</footer>
+	<div>
+	<form>
+	<table>
+		<tr>
+		<td><label for="ime">Korisničko ime: </label></td>
+		<td><input id="ime" type="text" name="ime"></td>
+		</tr><tr>
+		<td><label for="lozinka">Lozinka: </label></td>
+		<td><input id="lozinka" type="password" name="lozinka"></td>
+		</tr>
+	</table>
+	<br><br>
+	<button>
+		<strong>Prijava</strong>
+	</button>
+	</form>
+	</div>	
 </body>
 </html>
