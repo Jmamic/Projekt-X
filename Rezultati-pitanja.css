@@ -1,3 +1,4 @@
+body{background-color:#ffffb3;}
 a{
 	display:block;
 	color:black;
@@ -10,6 +11,9 @@ div#kor{position:relative;
 button#odj{position:absolute;
 		right:10px;
 		top:10px;}
+button#pov{position:absolute;
+		right:10px;
+		bottom:10px;}
 		
 img{width:30%;
 	text-align:center;}
